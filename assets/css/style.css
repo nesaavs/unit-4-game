@@ -1,50 +1,72 @@
-body{
-    font-size: 20px;
-    font-family: sans-serif;
-    color: #333;
-}
-
-h1{
-  font-weight: 500;
+body {
   margin: 0;
-  padding: 20px;
-  font-size: 20px;
-  font-weight: bolder;
-  background-color: #0646f69a;
-  color: #000000;
-  position: center;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #d6eedf;
 }
 
-#outer {
-  width: 100%;
+#title {
   text-align: center;
+  text-decoration: underline;
+  font-size: xx-large;
+  font-weight: 700;
+  background-color: rgba(0,255,133,0.56);
 }
 
-#inner {
-  display: inline-block;
-  text-align:"left;
+#instructions {
+  padding-right: 5px;
+  text-align: justify;
+  font-size: large;
+  font-weight: 600;
+  padding-left: 20px;
+  background-color: rgba(0,255,133,0.56);
 }
 
-.question{
-    font-weight: 600;
+#numberToMatch {
+  text-align: center;
+  font-size: 75px;
+  font-weight: 700;
+  background-color: rgba(0,148,255,0.14);
 }
-.answers {
-  margin-bottom: 20px;
+
+#winLoss {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 500;
+  background-color: rgba(0,148,255,0.31);
 }
-.answers label{
-  display: block;
+
+.crystalImg {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  background-color: white;
+  border: solid;
+  border-color: lightblue;
 }
-#submit{
-    font-family: sans-serif;
-    font-size: 20px;
-    background-color: #279;
-    color: #fff;
-    border: 0px;
-    border-radius: 3px;
-    padding: 20px;
-    cursor: pointer;
-    margin-bottom: 20px;
+
+.crystals-button {
+  display: inline;
 }
-#submit:hover{
-    background-color: #38a;
+
+#display {
+  align-content: center;
+  margin: 25px;
+  background-color: rgba(0,148,255,0.14);
 }
+
+#crystals {
+  padding-left: 100px;
+}
+
+#scoreArea {
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+  background-color: rgba(0,148,255,0.14);
+}
+
